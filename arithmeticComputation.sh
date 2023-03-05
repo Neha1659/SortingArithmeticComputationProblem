@@ -15,3 +15,5 @@ else
 fi
 result3=$(($c + $a / $b))
 echo "result3="$result3
+result4=$(($a % $b + $c))
+echo "result4="$result4
