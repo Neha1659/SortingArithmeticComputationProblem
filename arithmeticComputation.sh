@@ -13,3 +13,5 @@ then
 else
     echo empWrkHrs=0;
 fi
+result3=$(($c + $a / $b))
+echo "result3="$result3
